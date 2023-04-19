@@ -1,0 +1,48 @@
+#quienes_somos h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(126, 99, 90);
+}
+.darkmode #h2oscuro, #h2oscuro1, #h2oscuro2{
+    color: #fff;
+}
+.darkmode #h2oscuro2{
+    color: #fff;
+}
+.darkmode #h2oscuro1{
+    color: #fff;
+}
+#quienes_somos section{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#quienes_somos section p{
+    text-align: justify;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+@media screen and (min-width: 1024px) {
+    #quienes_somos h2{
+    font-size: 40px;
+    }
+    #quienes_somos section p{
+    font-size: 35px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #quienes_somos h2{
+    font-size: 30px;
+    }
+    #quienes_somos section p{
+    font-size: 25px;
+    }
+}
+@media screen and (max-width: 768px){
+    #quienes_somos h2{
+    font-size: 20px;
+    }
+    #quienes_somos section p{
+    font-size: 15px;
+    }
+}

@@ -1,0 +1,109 @@
+#catalogo h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 2%;
+    color: rgb(126, 99, 90);
+}
+#catalogo p a{
+    color: #ae887bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.darkmode #redirect{
+    color: #fff;
+}
+.darkmode #redirect:hover{
+    color: #e4e0e0;
+}
+#catalogo p a:hover{
+    color: rgb(126, 99, 90);
+}
+#ultimalinea{
+    margin: 20px;
+}
+#cuadro{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.filas{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.filas .uno{
+    flex: 19%;
+    border: 3px #ae887bff dashed;
+    text-align: center;
+}
+.darkmode .filas .uno{
+    border: #fff 3px dashed;
+}
+.darkmode .filas .dos{
+    border: #fff 3px dashed;
+}
+.filas .dos{
+    margin-left: 1%;
+    flex: 80%;
+    border: 3px #ae887bff dashed;
+}
+.darkmode #titucatalo{
+    color: #fff;
+}
+.textocatalogo h3{
+    font-size: 30px;
+}
+.textocatalogo h4{
+    font-size: 27px;
+}
+.textocatalogo p{
+    text-align: justify;
+    font-size: 25px;
+    margin: 0 20px;
+}
+.dos h3{
+    text-align: center;
+}
+@media screen and (min-width: 1024px) {
+    #catalogo h2{
+        font-size: 40px;
+    }
+    .textocatalogo h3{
+        font-size: 40px;
+    }
+    .textocatalogo h4{
+        font-size: 37px;
+    }
+    .textocatalogo p{
+        font-size: 35px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #catalogo h2{
+        font-size: 30px;
+    }
+    .textocatalogo h3{
+        font-size: 30px;
+    }
+    .textocatalogo h4{
+        font-size: 27px;
+    }
+    .textocatalogo p{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 768px){
+    #catalogo h2{
+        font-size: 20px;
+    }
+    .textocatalogo h3{
+        font-size: 20px;
+    }
+    .textocatalogo h4{
+        font-size: 17px;
+    }
+    .textocatalogo p{
+        font-size: 15px;
+    }
+}

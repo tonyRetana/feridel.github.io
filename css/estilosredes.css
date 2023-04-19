@@ -1,0 +1,111 @@
+#redesso{
+    margin-bottom: 25px;
+}
+.darkmode #titulored{
+    color: #fff;
+}
+#redes p{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#redes p a{
+    font-weight: bold;
+    color: #ae887bff;
+    text-decoration: none;
+}
+.darkmode #linktik{
+    color: #fff;
+}
+.darkmode #linkpin{
+    color: #fff;
+}
+.darkmode #linkpin:hover{
+    color: #e4e0e0;
+}
+.darkmode #linktik:hover{
+    color: #e4e0e0;
+}
+.darkmode #subtipin{
+    color: #fff;
+}
+#redes p a:hover{
+    color: rgb(126, 99, 90);
+}
+#redes section{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#redes h2{
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 2%;
+    color: rgb(126, 99, 90);
+    margin-left: 20px;
+}
+#redes h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 2%;
+    color: rgb(126, 99, 90);
+    margin-left: 20px;
+    font-weight: bold;
+}
+#bloque{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+    height: 890px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.tiktok{
+    flex: 50%;
+    height: 900px;
+}
+
+.red div{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+.red{
+    flex: 1;
+}
+
+
+@media screen and (min-width: 1024px) {
+    #redes p{
+        font-size: 35px;
+    }
+    #redes h2{
+    font-size: 37px;
+    }
+    #redes h3{
+        font-size: 35px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #redes p{
+        font-size: 25px;
+    }
+    #redes h2{
+    font-size: 27px;
+    }
+    #redes h3{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 768px){
+    #redes p{
+        font-size: 15px;
+    }
+    #redes h2{
+    font-size: 17px;
+    }
+    #redes h3{
+        font-size: 0px;
+    }
+}

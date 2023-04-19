@@ -1,0 +1,60 @@
+#galeria .texto p{
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.conten{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conten img{
+    border-radius: 30px;
+    transition: 0.5s;
+    margin-top: 20px;
+    height: 443px;
+    width: 300px;
+}
+#cuadrado{
+    height: 443px;
+    width: 443px;
+}
+
+.conten img:hover{
+    width: 304px;
+    height: 450px;
+}
+.conten div{
+    flex: 1;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    #galeria .texto p{
+    font-size: 40px;
+    }
+    #cuadrado{
+        height: 443px;
+        width: 443px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #galeria .texto p{
+    font-size: 30px;
+    }
+    #cuadrado{
+        height: 300px;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 768px){
+    #galeria .texto p{
+    font-size: 20px;
+    }
+    #cuadrado{
+        height: 300px;
+        width: 300px;
+    }
+}
